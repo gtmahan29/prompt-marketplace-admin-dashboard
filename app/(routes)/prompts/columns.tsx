@@ -48,6 +48,7 @@ export const columns: ColumnDef<PromptsDataTypes>[] = [
   },
   {
     accessorKey: "actions",
+    header: "Actions",
     cell: ({ row }) => {
       const payment = row.original;
 
@@ -58,7 +59,7 @@ export const columns: ColumnDef<PromptsDataTypes>[] = [
               <span className="">Pending</span>
             </Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent align="end" className="bg-[#ffffff10] backdrop-blur-md">
+          <DropdownMenuContent align="end" className="bg-[#ffffff5] backdrop-blur-xl text-white">
             <DropdownMenuItem>View customer</DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem>View payment details</DropdownMenuItem>

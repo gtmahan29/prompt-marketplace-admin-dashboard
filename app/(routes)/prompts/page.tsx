@@ -1,7 +1,8 @@
 import { GetPrompts } from "@/actions/prompt/getPrompts";
 import React from "react";
-import { DataTable } from "./data-table";
 import { PromptsDataTypes, columns } from "./columns";
+import { DataTable } from "../../../components/ui/data-table";
+import { Separator } from "../../../components/ui/separator";
 import Sidebar from "@/components/Sidebar";
 import { styles } from "@/utils/styles";
 
@@ -32,7 +33,13 @@ const Page = async (props: Props) => {
         <Sidebar active={2} />
       </div>
       <div className="2xl:w-[84%] w-[80%] m-20 flex flex-col">
-        <h1 className={`${styles.heading} mb-5 leading-[50px]`}>All Prompts</h1>
+        <div className="mb-8">
+          <h1 className={`${styles.heading} leading-[50px]`}>All Prompts</h1>
+          <span className={`${styles.label} text-[#ffffff90]`}>
+            All prompts will be shown here.
+          </span>
+          <Separator className="bg-[#ffffff15] mt-2"/>
+        </div>
         <DataTable columns={columns} data={data} />
       </div>
     </div>

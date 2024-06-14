@@ -27,7 +27,7 @@
     "cloudinary": "^2.2.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.1.7",
-    "lucide-react": "^0.376.0",
+    "lucide-react": "^0.395.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.3",
     "next-cloudinary": "^6.6.2",

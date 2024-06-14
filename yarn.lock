@@ -2712,10 +2712,10 @@ lru-cache@^10.2.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.2.2.tgz#48206bc114c1252940c41b25b41af5b545aca878"
   integrity sha512-9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==
 
-lucide-react@^0.376.0:
-  version "0.376.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.376.0.tgz#79768ff670f2ebabf03cd5a7dccee9915859781a"
-  integrity sha512-g91IX3ERD6yUR1TL2dsL4BkcGygpZz/EsqjAeL/kcRQV0EApIOr/9eBfKhYOVyQIcGGuotFGjF3xKLHMEz+b7g==
+lucide-react@^0.395.0:
+  version "0.395.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.395.0.tgz#f538cbabc9719c2258c03355524ffdea36301a5f"
+  integrity sha512-6hzdNH5723A4FLaYZWpK50iyZH8iS2Jq5zuPRRotOFkhu6kxxJiebVdJ72tCR5XkiIeYFOU5NUawFZOac+VeYw==
 
 map-obj@^4.1.0:
   version "4.3.0"

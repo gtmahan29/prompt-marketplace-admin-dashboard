@@ -67,7 +67,7 @@ const AdminSidebar = ({ selected, setSelected }: Props) => {
           <Link href={item.href}>
             <div className="flex items-center">
               <div
-                className={`text-3xl ${
+                className={`text-[20px] ${
                   selected !== index ? "!text-white" : "!text-[#64ff4b]"
                 }`}
               >
@@ -87,7 +87,7 @@ const AdminSidebar = ({ selected, setSelected }: Props) => {
       <div className="w-full mx-5 my-10">
         <Link href="/" onClick={handleLogout}>
           <div className="flex items-center">
-            <div className="text-3xl">
+            <div className="text-[20px]">
               <IoLogOutOutline />
             </div>
             <span className={`${styles.label} !text-white pl-4`}>Log Out</span>
