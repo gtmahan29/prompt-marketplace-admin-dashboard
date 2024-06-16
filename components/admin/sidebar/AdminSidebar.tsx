@@ -10,6 +10,7 @@ import { IoLogOutOutline } from "react-icons/io5";
 import Link from "next/link";
 import { styles } from "@/utils/styles";
 import { useClerk } from "@clerk/nextjs";
+import Image from "next/image";
 
 type Props = {
   selected: number;
@@ -62,6 +63,9 @@ const AdminSidebar = ({ selected, setSelected }: Props) => {
   };
   return (
     <div>
+      <div className="w-full mx-5 my-10">
+        <Image src="/assets/logo.svg" alt="" width={250} height={100}/>
+      </div>
       {sidebarItems.map((item, index) => (
         <div className="w-full mx-5 my-10" key={index}>
           <Link href={item.href}>
